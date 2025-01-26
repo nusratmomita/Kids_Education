@@ -109,7 +109,85 @@ ul>li>a{
 }
 
 /*strandard-curriculam style*/
-
+.strandard-curriculam{
+    max-width: 1440px;
+    text-align: center;
+}
+.strandard-curriculam-title{
+    font-weight: bold;
+    font-size: 2.8rem;
+    margin-top: 50px;
+}
+.strandard-curriculam-cards{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.strandard-curriculam-card-food{
+    width: 370px;
+    height: 375px;
+    margin-left: 140px;
+    background-image: linear-gradient(rgba(222, 245, 255, 1),white);
+}
+.strandard-curriculam-card-food img{
+    margin-top: 25px;
+}
+.strandard-curriculam-card-books{
+    width: 370px;
+    height: 375px;
+    background-image: linear-gradient(rgba(255, 244, 220, 1),white);
+}
+.strandard-curriculam-card-books img{
+    margin-top: 25px;
+}
+.strandard-curriculam-card-lab{
+    width: 370px;
+    height: 375px;
+    margin-left: -60px;
+    background-image: linear-gradient(rgba(242, 232, 255, 1),white);
+}
+.strandard-curriculam-card-lab img{
+    margin-top: 25px;
+}
+.strandard-curriculam-card h3{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.strandard-curriculam-card p h4{
+    font-weight: normal;
+    font-size: 1rem;
+}
+.strandard-curriculam-cards p{
+    margin-top: 35px;
+}
+.strandard-curriculam-footer-food{
+    margin-top: 55px;
+    color: #64C8FF;
+}
+.strandard-curriculam-footer-books{
+    margin-top: 55px;
+    color: #F0AA00;
+}
+.strandard-curriculam-footer-lab{
+    margin-top: 55px;
+    color: #8700FF;
+}
+.circle-one,.circle-two{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FEA301;
+}
+.circles{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
 /* Responsiveness */
 /* Small device */
 /* navbar does not work */
