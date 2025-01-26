@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Common styles */
+body{
+    background-image: url("../assets/bg.png");
+}
+
+/*Header styles*/
+.header>nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 20px 140px;
+}
+.nav-links>ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+}
+.img-name{
+    display: flex;
+}
+.header img{
+    width: 60px;
+    height: 60px;
+}
+.header .school{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+ul>li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+    height: 30px;
+}
+ul>li>a{
+    text-decoration: none;
+}
+.header .home{
+    color: #FEA301;
+}
+.header .about{
+    color: #01ACFD;
+}
+.header .facilities{
+    color: #05D4DF;
+}
+.header .admission{
+    color: #5D58EF;
+}
+.header .contact{
+    width: 200px;
+    height: 50px;
+    background-color: #FEA301;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-left: 170px;
+}
+
+/*Banner styles*/
+.banner{
+    display: flex;
+    gap: 110px;
+    max-width: 1160px;
+    height: 575px;
+    margin: 0px 140px;
+}
+.banner-tittle{
+    font-weight: bold;
+    font-size: 3.4rem;
+}
+.empw{
+    color: #FEA301;
+}
+.TV{
+    color: #01ACFD;
+}
+.banner-details{
+    font-weight: normal;
+    font-size: 1.25rem;
+    color: #111111;
+    margin-top: -40px;
+}
+.banner .enroll-now{
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #111111;
+    color: #FFFFFF;
+    font-size: 1.15rem;
+    font-weight: bold;
+    border: none;
+}
+.banner .banner-image{
+    width: 470px;
+    height: 575px;
+}
+
+/*strandard-curriculam style*/
+
+/* Responsiveness */
+/* Small device */
+/* navbar does not work */
+/* Responsiveness is not working properly */
+@media screen and (max-width:576px){
+    .header{
+        max-width: 576px;
+    }
+    .header .school,.nav-links,.contact{
+        display: none;
+    }
+    .header img{
+        margin-left: -130px;
+    }
+    /* .navbar{
+        display: flex;
+    } */
+    .hamburger-menu{
+        margin-top: -8px;
+        position: relative;
+        right: 0;
+    }
+    .side-bar-one{
+        border-right: 3px solid #111111;
+        width: 13px;
+        height:  25px;
+        margin: 15px 160px;
+        transform: rotate(90deg);
+    }
+    .side-bar-two{
+        border-right: 3px solid #111111;
+        width: 13px;
+        height: 25px;
+        margin: -23px 160px;
+        transform: rotate(90deg);
+    }
+    .side-bar-three{
+        border-right: 3px solid #111111;
+        width: 13px;
+        height: 25px;
+        margin: -33px 160px;
+        transform: rotate(90deg);
+    }
+    /* .straight-line .line {
+        border-bottom: 5px solid #FEA301;
+        margin-top: 5px;
+        width: 90px;
+    } */
+
+    .banner{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        max-width: 576px;
+        margin-top: 70px;
+        margin-left: 5x;
+    }
+    .banner .banner-image{
+        width: 335px;
+        height: 413px;
+        margin: 40px -100px;
+    }
+    
+    .banner .banner-text{
+        width: 360px;
+        height: 50px;
+        text-align: center;
+        font-size: 2rem;
+        margin-top: -80px;
+    }
+
+}
