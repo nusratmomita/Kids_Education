@@ -130,6 +130,7 @@ ul>li>a{
     width: 370px;
     height: 375px;
     margin-left: 140px;
+    border-radius: 19px;
     background-image: linear-gradient(rgba(222, 245, 255, 1),white);
 }
 .strandard-curriculam-card-food img{
@@ -138,6 +139,7 @@ ul>li>a{
 .strandard-curriculam-card-books{
     width: 370px;
     height: 375px;
+    border-radius: 19px;
     background-image: linear-gradient(rgba(255, 244, 220, 1),white);
 }
 .strandard-curriculam-card-books img{
@@ -147,6 +149,7 @@ ul>li>a{
     width: 370px;
     height: 375px;
     margin-left: -60px;
+    border-radius: 19px;
     background-image: linear-gradient(rgba(242, 232, 255, 1),white);
 }
 .strandard-curriculam-card-lab img{
@@ -186,7 +189,88 @@ ul>li>a{
     gap: 20px;
     justify-content: center;
     align-items: center;
-    margin-left: 250px;
+    margin: 0px 10px;
+}
+
+/* Our Stories styles */
+.our-stories{
+    background-image: linear-gradient(white,rgba(255, 244, 220, 1));
+}
+.our-stories{
+    margin-top: 70px;
+}
+.story-title{
+    font-weight: bold;
+    font-size: 2.8rem;
+    text-align: center;
+}
+.story-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.our-stories-grid{
+    width: 600px;
+    height: 620px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.story-card-toddlar{
+    width: 540px;
+    height: 610px;
+    background-color:  #FFFFFF;
+    border-radius: 16px;
+    margin-left: 130px;
+}
+.story-card-toddlar img{
+    width: 540px;
+    height: 337px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.story-card-toddlar-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+.story-card-toddlar-des{
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: -25px;
+}
+.story-card-toddlar-title,.story-card-toddlar-des{
+    margin-left: 20px;
+}
+.our-stories-grid>div{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    border-radius: 16px;
+}
+.our-stories-grid>div>img{
+    width: 290px;
+    height: 177px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.our-stories-grid>div>h5{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+.view-all{
+    width: 200px;
+    height: 50px;
+    background-color: #111111;
+    color: #FFFFFF;
+    border-radius: 12px;
+    margin-top: 55px;
+}
+.btn-view-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Responsiveness */
 /* Small device */
