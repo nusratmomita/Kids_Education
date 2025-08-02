@@ -108,17 +108,18 @@ ul>li>a{
     height: 575px;
 }
 
-/*strandard-curriculam style*/
-.strandard-curriculam{
+/*standard-curriculum style*/
+.standard-curriculum{
     max-width: 1440px;
     text-align: center;
 }
-.strandard-curriculam-title{
+.standard-curriculum-title{
     font-weight: bold;
     font-size: 2.8rem;
     margin-top: 50px;
 }
-.strandard-curriculam-cards{
+.standard-curriculum-cards{
+    height: 480px;
     margin-top: 35px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -126,55 +127,55 @@ ul>li>a{
     justify-content: center;
     align-items: center;
 }
-.strandard-curriculam-card-food{
+.standard-curriculum-card-food{
     width: 370px;
     height: 375px;
     margin-left: 140px;
     border-radius: 19px;
     background-image: linear-gradient(rgba(222, 245, 255, 1),white);
 }
-.strandard-curriculam-card-food img{
+.standard-curriculum-card-food img{
     margin-top: 25px;
 }
-.strandard-curriculam-card-books{
+.standard-curriculum-card-books{
     width: 370px;
     height: 375px;
     border-radius: 19px;
     background-image: linear-gradient(rgba(255, 244, 220, 1),white);
 }
-.strandard-curriculam-card-books img{
+.standard-curriculum-card-books img{
     margin-top: 25px;
 }
-.strandard-curriculam-card-lab{
+.standard-curriculum-card-lab{
     width: 370px;
     height: 375px;
     margin-left: -60px;
     border-radius: 19px;
     background-image: linear-gradient(rgba(242, 232, 255, 1),white);
 }
-.strandard-curriculam-card-lab img{
+.standard-curriculum-card-lab img{
     margin-top: 25px;
 }
-.strandard-curriculam-card h3{
+.standard-curriculum-card h3{
     font-weight: bold;
     font-size: 1.6rem;
 }
-.strandard-curriculam-card p h4{
+.standard-curriculum-card p h4{
     font-weight: normal;
     font-size: 1rem;
 }
-.strandard-curriculam-cards p{
+.standard-curriculum-cards p{
     margin-top: 35px;
 }
-.strandard-curriculam-footer-food{
+.standard-curriculum-footer-food{
     margin-top: 55px;
     color: #64C8FF;
 }
-.strandard-curriculam-footer-books{
+.standard-curriculum-footer-books{
     margin-top: 55px;
     color: #F0AA00;
 }
-.strandard-curriculam-footer-lab{
+.standard-curriculum-footer-lab{
     margin-top: 55px;
     color: #8700FF;
 }
@@ -282,8 +283,6 @@ ul>li>a{
 
 /*Footer section styles*/
 .footer{
-    width: 1510px;
-    height: 320px;
     background-color: #01ACFD;
     margin-top: 5px;
     display: grid;
@@ -345,6 +344,8 @@ ul>li>a{
 .display{
     display: none;
 }
+
+
 /* Responsiveness */
 /* Small device */
 /* navbar does not work */
@@ -414,13 +415,28 @@ ul>li>a{
         font-size: 2rem;
         margin-top: -80px;
     }
-    .strandard-curriculam{
+    .standard-curriculum{
         margin-top: 820px;
     }
-    .strandard-curriculam-cards{
+    .standard-curriculum-cards{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
     }
 
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1px;
+    }
+    .footer-links{
+        margin-left: 15px;
+    }
+    .footer-links h3{
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .footer-text{
+        margin-left: 30px;
+    }
 }
