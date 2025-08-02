@@ -224,30 +224,30 @@ ul>li>a{
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
 }
-.story-card-toddlar{
+.story-card-toddler{
     width: 540px;
     height: 610px;
     background-color:  #FFFFFF;
     border-radius: 16px;
     margin-left: 130px;
 }
-.story-card-toddlar img{
+.story-card-toddler img{
     width: 540px;
     height: 337px;
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
 }
-.story-card-toddlar-title{
+.story-card-toddler-title{
     font-weight: bold;
     font-size: 1.5rem;
     
 }
-.story-card-toddlar-des{
+.story-card-toddler-des{
     font-weight: normal;
     font-size: 1rem;
     margin-top: -25px;
 }
-.story-card-toddlar-title,.story-card-toddlar-des{
+.story-card-toddler-title,.story-card-toddler-des{
     margin-left: 20px;
 }
 .our-stories-grid>div{
@@ -394,18 +394,18 @@ ul>li>a{
         width: 90px;
     } */
 
+
     .banner{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        max-width: 576px;
+        max-width: 276px;
         margin-top: 70px;
-        margin-left: 5x;
+        /* margin-left: 5x; */
     }
     .banner .banner-image{
-        width: auto;
-        height: auto;
-        margin: 40px -100px;
+        width: 320px;
+        height: 420px;
     }
     
     .banner .banner-text{
@@ -414,6 +414,8 @@ ul>li>a{
         text-align: center;
         font-size: 2rem;
         margin-top: -80px;
+        /* margin-left: 10px; */
+        margin-right: 130px;
     }
     .standard-curriculum{
         margin-top: 820px;
@@ -422,6 +424,37 @@ ul>li>a{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
+    }
+
+    .our-stories{
+        margin-top: 690px;
+    }
+    .story-card-toddler{
+        display: none;
+    }
+    .our-stories-grid{
+        /* width: 600px;
+        height: 620px; */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .our-stories-grid>div{
+        width: 90px;
+        height: 90px;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .our-stories-grid>div>img{
+        /* width: 290px;
+        height: 177px; */
+        border-top-right-radius: 16px;
+        border-top-left-radius: 16px;
+    }
+    .our-stories-grid>div>h5{
+        font-weight: bold;
+        font-size: 1rem;
+        /* margin-left: 15px; */
     }
 
     .footer{
